@@ -16,11 +16,6 @@ namespace ClassPracticalActivity
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
-        protected void ddlFileType_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
         protected void btnView_Click(object sender, EventArgs e)
         {
             void getFiles(BlobContainerClient client)

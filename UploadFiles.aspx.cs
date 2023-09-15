@@ -24,7 +24,7 @@ namespace ClassPracticalActivity
         {
             if (FileUpload.HasFiles)
             {
-                string path = @"C:\Users\lab_services_student\OneDrive - ADvTECH Ltd\Year 2\Cloud Development\Semester 2\ClassPracticalActivity\Files\";
+                string path = @"C:\Users\garth\OneDrive - ADvTECH Ltd\Year 2\Cloud Development\Semester 2\ClassPracticalActivity\Files\";
                 FileUpload.SaveAs(path + FileUpload.FileName);
                 Label1.Text = "File Uploaded: " + FileUpload.FileName;
                 var files = GetFiles(path);
